@@ -1,0 +1,38 @@
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0px;
+}
+
+h1 {
+  font-weight: 600;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 200px;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+p {
+  font-weight: 400;
+}
+
+.javier {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.nombre {
+  font-size: 18px;
+  margin-top: 100px;
+}
+
+.small {
+  font-size: 14px;
+  line-height: 20px;
+  ;
+}
