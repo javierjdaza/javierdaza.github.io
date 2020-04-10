@@ -1,3 +1,11 @@
+/* PX TO REM
+
+16px = 1rem
+12px = 0.875rem
+18px = 1.125
+24px = 1.5rem
+
+ */
 body {
   font-family: 'Playfair Display', serif;
   margin-left: 3rem;
@@ -11,7 +19,43 @@ h1 {
   font-size: 1.5rem;
 }
 
-.javier {
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+}
+
+a:hover {
+  color: red;
+}
+
+p {
+  text-align: justify;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* TÍTULOS DE CADA SECCIÓN DEL DOCUMENTO */
+.titulos {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.contenedor {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+/* PORTADA */
+.seccion1 {
   text-align: center;
   margin-top: 3rem;
 }
