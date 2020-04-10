@@ -1,47 +1,44 @@
 body {
   font-family: 'Playfair Display', serif;
-  margin: 0px;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 h1 {
   font-weight: 600;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 20px;
-  font-size: 30px;
-}
-
-h2 {
-  font-weight: 400;
-  font-size: 12px;
-}
-
-p {
-  font-weight: 400;
+  margin-top: 1em;
+  font-size: 1.5rem;
 }
 
 .javier {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 3rem;
 }
 
 .nombre {
-  font-size: 18px;
-  margin-top: 100px;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+  display: inline-block;
 }
 
 .small {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.8rem;
+  line-height: 1.1rem
 }
 
 .logouis img {
-  width: 15%;
+  width: 20%;
 }
 
 .logouis {
+  margin-top: 10rem;
   text-align: center;
-  margin-top: 200px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  min-width: 20%
 }
 }
