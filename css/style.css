@@ -80,6 +80,15 @@ p {
   text-align: center;
 }
 
+.diagrama img {
+  width: 50rem;
+}
+
+.diagrama {
+  text-align: center;
+}
+
+/* RESPONSIVE TEXT ON DEVICES */
 @media (max-width: 480px) {
   html {
     font-size: 12px;
