@@ -80,10 +80,6 @@ p {
   text-align: center;
 }
 
-.diagrama img {
-  width: 50rem;
-}
-
 .diagrama {
   text-align: center;
 }
@@ -93,11 +89,19 @@ p {
   html {
     font-size: 12px;
   }
+
+  .diagrama img {
+    width: 30rem;
+  }
 }
 
 @media (min-width: 480px) {
   html {
     font-size: 13px;
+  }
+
+  .diagrama img {
+    width: 25rem;
   }
 }
 
@@ -105,16 +109,28 @@ p {
   html {
     font-size: 14px;
   }
+
+  .diagrama img {
+    width: 35rem;
+  }
 }
 
 @media (min-width: 992px) {
   html {
     font-size: 15px;
   }
+
+  .diagrama img {
+    width: 40rem;
+  }
 }
 
 @media (min-width: 1200px) {
   html {
     font-size: 16px;
+  }
+
+  .diagrama img {
+    width: 50rem;
   }
 }
