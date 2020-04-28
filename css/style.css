@@ -41,6 +41,13 @@ p {
   line-height: 1.5rem;
 }
 
+ul {
+  text-align: justify !important;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
 /* TÍTULOS DE CADA SECCIÓN DEL DOCUMENTO */
 .titulos {
   font-weight: bold;
