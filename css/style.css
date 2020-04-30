@@ -53,7 +53,12 @@ ul {
   font-weight: bold;
   text-align: left;
   font-size: 1.125rem;
-  line-height: 1.5rem;
+  display: block;
+  padding: 0;
+  background-color: #eff0f2;
+  padding-left: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
 }
 
 .contenedor {
