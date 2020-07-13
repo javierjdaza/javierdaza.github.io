@@ -63,7 +63,7 @@ ol {
   display: block;
   padding: 0;
   background-color: #eff0f2;
-  
+
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
 }
@@ -71,6 +71,9 @@ ol {
 .contenedor {
   margin-top: 10rem;
   margin-bottom: 10rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+
 }
 
 .diagrama h2 {
