@@ -58,12 +58,12 @@ ol {
 /* TÍTULOS DE CADA SECCIÓN DEL DOCUMENTO */
 .titulos {
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   font-size: 1.125rem;
   display: block;
   padding: 0;
   background-color: #eff0f2;
-  padding-left: 1rem;
+  
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
 }
