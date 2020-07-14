@@ -7,7 +7,7 @@
 
  */
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -63,17 +63,30 @@ ol {
   display: block;
   padding: 0;
   background-color: #eff0f2;
-
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
 }
+
+.subtitulos {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.subs {
+  text-align: center !important;
+  font-size: 0.7rem;
+  display: block;
+  font-style: italic;
+}
+
+
 
 .contenedor {
   margin-top: 10rem;
   margin-bottom: 10rem;
   margin-left: 10rem;
   margin-right: 10rem;
-
 }
 
 .diagrama h2 {
@@ -98,18 +111,27 @@ ol {
 
 .small {
   font-size: 0.8rem;
-  line-height: 1.1rem
+  line-height: 1.1rem;
 }
 
-.logouis img {
-  width: 10rem;
+.imagen{
+  margin-top: 2rem;
+  text-align: center;
+}
+.imagen img{
+  width: 35rem;
 }
 
 .logouis {
   margin-top: 10rem;
   text-align: center;
-}
+  margin-bottom: 2rem;
 
+}
+.logouis img{
+  width: 20rem;
+
+}
 .diagrama {
   text-align: center;
 }
