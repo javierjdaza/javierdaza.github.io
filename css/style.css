@@ -69,8 +69,8 @@ ol {
   display: block;
   padding: 0;
   background-color: #eff0f2;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 .subtitulos {
@@ -87,10 +87,10 @@ ol {
 }
 
 .contenedor {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin-left: 11rem;
+  margin-right: 11rem;
 }
 
 .diagrama h2 {
@@ -122,6 +122,13 @@ ol {
   margin-top: 2rem;
   text-align: center;
 }
+.tablas {
+  margin-top: 1rem;
+  text-align: center;
+}
+.tablas img {
+  width: 25rem;
+}
 
 .imagen img {
   width: 35rem;
@@ -144,6 +151,7 @@ ol {
 .diagrama2 {
   text-align: center;
 }
+
 
 /* RESPONSIVE TEXT ON DEVICES */
 @media (max-width: 480px) {
