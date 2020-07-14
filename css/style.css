@@ -168,30 +168,28 @@ ol {
     width: 15rem;
   }
   .imagen img {
-    width: 30rem;
+    width: 20rem;
   }
 }
 
-@media (min-width: 480px) {
-  html {
-    font-size: 13px;
+@media (min-width: 600px) {
+  .contenedor {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 14px;
+  .contenedor {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  html {
-    font-size: 15px;
-  }
+
 }
 
 @media (min-width: 1200px) {
-  html {
-    font-size: 16px;
-  }
+
 }
