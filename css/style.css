@@ -154,6 +154,7 @@ ol {
 
 
 /* RESPONSIVE TEXT ON DEVICES */
+
 @media (max-width: 480px) {
   html {
     font-size: 12px;
@@ -168,7 +169,7 @@ ol {
     width: 15rem;
   }
   .imagen img {
-    width: 20rem;
+    width: 25rem;
   }
 }
 
@@ -177,12 +178,18 @@ ol {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  .imagen img {
+    width: 30rem;
+  }
 }
 
 @media (min-width: 768px) {
   .contenedor {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  .imagen img {
+    width: 40rem;
   }
 }
 
