@@ -36,27 +36,27 @@ a:hover {
 
 p {
   text-align: justify !important;
-  font-size: 0.875rem;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.5rem;
 }
 dd{
   text-align: justify !important;
-  font-size: 0.875rem;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.5rem;
 }
 
 ul {
   text-align: justify !important;
-  font-size: 0.875rem;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.5rem;
 }
 
 ol {
   text-align: justify !important;
-  font-size: 0.875rem;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.5rem;
 }
@@ -65,7 +65,7 @@ ol {
 .titulos {
   font-weight: bold;
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 14px;
   display: block;
   padding: 0;
   background-color: #eff0f2;
@@ -76,12 +76,12 @@ ol {
 .subtitulos {
   font-weight: bold;
   text-align: left;
-  font-size: 1rem;
+  font-size: 13px;
 }
 
 .subs {
   text-align: center !important;
-  font-size: 0.7rem;
+  font-size: 9px;
   display: block;
   font-style: italic;
 }
@@ -166,6 +166,9 @@ ol {
 
   .logouis img {
     width: 15rem;
+  }
+  .imagen img {
+    width: 30rem;
   }
 }
 
