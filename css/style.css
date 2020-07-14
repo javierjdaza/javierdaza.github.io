@@ -81,7 +81,7 @@ ol {
 
 .subs {
   text-align: center !important;
-  font-size: 9px;
+  font-size: 10px;
   display: block;
   font-style: italic;
 }
@@ -134,7 +134,7 @@ ol {
   text-align: center;
 }
 .tablas2 img {
-  width: 100rem;
+  width: 32rem;
 }
 
 .imagen img {
@@ -176,6 +176,9 @@ ol {
     width: 15rem;
   }
   .imagen img {
+    width: 25rem;
+  }
+  .tablas2 img {
     width: 25rem;
   }
 }
