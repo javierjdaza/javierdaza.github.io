@@ -40,6 +40,12 @@ p {
   font-weight: 400;
   line-height: 1.5rem;
 }
+dd{
+  text-align: justify !important;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
 
 ul {
   text-align: justify !important;
@@ -80,8 +86,6 @@ ol {
   font-style: italic;
 }
 
-
-
 .contenedor {
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -114,11 +118,12 @@ ol {
   line-height: 1.1rem;
 }
 
-.imagen{
+.imagen {
   margin-top: 2rem;
   text-align: center;
 }
-.imagen img{
+
+.imagen img {
   width: 35rem;
 }
 
@@ -126,12 +131,12 @@ ol {
   margin-top: 10rem;
   text-align: center;
   margin-bottom: 2rem;
-
 }
-.logouis img{
+
+.logouis img {
   width: 20rem;
-
 }
+
 .diagrama {
   text-align: center;
 }
@@ -145,41 +150,37 @@ ol {
   html {
     font-size: 12px;
   }
-.contenedor{
-  margin-left: 0rem;
-  margin-right: 0rem;
-}
 
+  .contenedor {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .logouis img {
+    width: 15rem;
+  }
 }
 
 @media (min-width: 480px) {
   html {
     font-size: 13px;
   }
-
-
 }
 
 @media (min-width: 768px) {
   html {
     font-size: 14px;
   }
-
-
 }
 
 @media (min-width: 992px) {
   html {
     font-size: 15px;
   }
-
-
 }
 
 @media (min-width: 1200px) {
   html {
     font-size: 16px;
   }
-
-
 }
