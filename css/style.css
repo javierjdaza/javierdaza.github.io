@@ -35,12 +35,13 @@ a:hover {
 }
 
 p {
-  text-align: justify !important;
+  text-align: justify;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5rem;
 }
-dd{
+
+dd {
   text-align: justify !important;
   font-size: 12px;
   font-weight: 400;
@@ -122,17 +123,21 @@ ol {
   margin-top: 2rem;
   text-align: center;
 }
+
 .tablas {
   margin-top: 1rem;
   text-align: center;
 }
+
 .tablas img {
   width: 25rem;
 }
+
 .tablas2 {
   margin-top: 1rem;
   text-align: center;
 }
+
 .tablas2 img {
   width: 32rem;
 }
@@ -151,6 +156,23 @@ ol {
   width: 20rem;
 }
 
+.profile img {
+  width: 25rem;
+  text-align: center;
+}
+
+.profile p {
+  text-align: center;
+}
+
+.left {
+  text-align: center;
+}
+
+.right {
+  text-align: center;
+}
+
 .diagrama {
   text-align: center;
 }
@@ -159,9 +181,19 @@ ol {
   text-align: center;
 }
 
+.introduccion {
+  clear: both;
+}
+
+.ecuacion {
+  text-align: center !important;
+  font-size: 20px;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+}
 
 /* RESPONSIVE TEXT ON DEVICES */
-
 @media (max-width: 480px) {
   html {
     font-size: 12px;
@@ -175,9 +207,11 @@ ol {
   .logouis img {
     width: 15rem;
   }
+
   .imagen img {
     width: 25rem;
   }
+
   .tablas2 img {
     width: 25rem;
   }
@@ -188,6 +222,7 @@ ol {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
   .imagen img {
     width: 30rem;
   }
@@ -198,6 +233,7 @@ ol {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
   .imagen img {
     width: 40rem;
   }
@@ -214,5 +250,21 @@ ol {
   .contenedor {
     margin-left: 11rem;
     margin-right: 11rem;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .profile p {
+    text-align: left;
+  }
+
+  .right {
+    margin-left: 26rem;
+  }
+
+  .introduccion {
+    margin-top: 31rem;
   }
 }

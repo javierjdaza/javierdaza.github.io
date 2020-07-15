@@ -19,6 +19,8 @@
   <link href="css/style.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
 
 
 
@@ -57,6 +59,19 @@
   </div>
 
 
+  <div class="profile contenedor">
+    <div class="left">
+      <img src="css/img/profile.jpg" alt="">
+    </div>
+    <div class="right">
+      <p>Soy Javier Javier Daza, <b>Ingeniero Industrial</b>. <br>
+        Actualmente soy estudiante de <b>Maestría en Ingeniería Industrial</b> en la Universidad Industrial de Santander (UIS). Tengo un especial interes en los factores relacionados con la pobreza, desigualdad y productividad. Soy apasionado por el
+        diseño, la tecnología y la programación.
+      </p>
+    </div>
+
+
+  </div>
   <div class="introduccion contenedor">
 
     <span class="titulos">
@@ -357,12 +372,12 @@
     <br>
     <br>
     <p>
-      <span class="subtitulos"><u>3.1 Objetivo general </u><br> </span>
+      <span class="subtitulos">3.1 Objetivo general<br> </span>
       <br>
       Analizar el efecto económico y laboral causado por el distanciamiento social en Colombia.
       <br>
       <br>
-      <span class="subtitulos"><u>3.2 Objetivo específico</u> <br></span>
+      <span class="subtitulos">3.2 Objetivo específico <br></span>
       <br>
 
     <ol>
@@ -387,7 +402,6 @@
 
 
   </div>
-
   <div class="hipotesis contenedor">
     <span class="titulos">4. Hipótesis</span>
     <br>
@@ -413,8 +427,6 @@
 
 
   </div>
-
-
   <div class="metodologia contenedor">
 
     <span class="titulos">5. Metodología</span>
@@ -522,31 +534,60 @@
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las actividades que conforman esta fase serán las siguientes:
       <br>
       <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Actividad 1:</b>  Examinar todas las variables que describen a aquellos que pueden realizar teletrabajo.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Actividad 1:</b> Examinar todas las variables que describen a aquellos que pueden realizar teletrabajo.
       <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Actividad 2:</b>  Elaborar un perfil del trabajador bajo las características previamente identificadas
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Actividad 2:</b> Elaborar un perfil del trabajador bajo las características previamente identificadas
       <br>
       <br>
       <span class="subtitulos">5.3. Fase 3: Análisis de condiciones para realizar teletrabajo de los trabajadores</span>
       <br>
       <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Una vez culminadas las fases 1 y 2, se procederá con la Fase 3, dedicada a la identificación de ocupados con potencial para trabajar desde casa, por tanto, se identifican variables asociadas a las condiciones de los trabajadores en sus hogares.
-      Esta etapa es fundamental pues segmenta aun mas la población, ya que de esto depende radicalmente la viabilidad de los trabajadores de efectuar de forma sobresaliente su labor desde casa.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Una vez culminadas las fases 1 y 2, se procederá con la Fase 3, dedicada a la identificación de ocupados con potencial para trabajar desde casa, por tanto, se identifican variables asociadas a las
+      condiciones de los trabajadores en sus hogares.
+      <br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta etapa es fundamental pues segmenta aun mas la población, ya que de esto depende radicalmente la viabilidad de los trabajadores de efectuar de forma sobresaliente su labor desde casa.
       En esta etapa culmina la identificación de las variables dependientes e independientes que se usarán en el modelo probabilístico probit.
+      <br>
+      <br>
+      <span class="subs">Tabla 4. Variables a usar Fase 3</span>
+    <div class="tablas2">
+      <img src="css/img/tabla4.png" alt="">
+    </div>
+    <br>
+    <br>
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las actividades que conforman esta fase serán las siguientes:
+      <br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Actividad 1:</b> Analizar la población objetivo, aquellos que pueden realizar teletrabajo y que tienen las condiciones en sus hogares para realizarlo.
+      <br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<b>Actividad 2:</b> Elaborar un perfil de los ocupados que se obtienen de la actividad y fases anteriores e identificar variables que serán los inputs del modelo probabilistico de la siguiente fase.
+      <br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actividad 3: Hacer un análisis descriptivo de los resultados, mediante gráficos y visualización de data.
+      <br>
+      <br>
+      <span class="subtitulos">5.4. Fase 4: Análisis econométrico del teletrabajo y su impacto en la desigualdad salarial.</span>
+      <br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siguiendo a Wooldridge (2002), el objetivo de esta fase es realizar una estimación por medio del modelo estadístico probit, el cual permite realizar una regresión donde la variable dependiente puede
+      tomar solo dos valores (Bliss, 1934).<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se asume que los errores siguen una distribución normal, por tal razón se decide por el modelo Probit, por sobre el modelo Logit. Ambos modelos conducen a las mismas conclusiones independientemente la
+      complejidad del problema. En el campo de la
+      econometría y ciencias políticas el uso del modelo probit es mas común (Allison, 1999).
+      <br>
+      <br>
 
+
+      <span class = "ecuacion" >Prob[Y=1|X]= Φ(β<sub>0</sub>+β<sub>1</sub>X) + ε</span>
 
     </p>
 
-
   </div>
 
-  <div class="diagrama responsive contenedor">
-
-    <h2>Proceso General a específico</h2>
-
-
-    <img src="css/img/diagrama.png" alt="">
-  </div>
 
   <div class="diagrama2 responsive contenedor">
 
