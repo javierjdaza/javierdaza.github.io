@@ -193,7 +193,9 @@ ol {
   letter-spacing: 2px;
 }
 
-
+.bibliografia p {
+  text-align: justify !important;
+}
 
 /* RESPONSIVE TEXT ON DEVICES */
 @media (max-width: 480px) {
