@@ -28,10 +28,31 @@ h2 {
 a {
   text-decoration: none;
   color: #ED5C4D;
+  font-size: 14px;
 }
 
 a:hover {
   color: #FBBE4B;
+}
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius:8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background: #6a8caf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #ED5C4D;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 p {
@@ -261,11 +282,12 @@ ol {
   }
 
   .profile p {
-    text-align: left;
+    text-align: justify;
   }
 
   .right {
     margin-left: 26rem;
+
   }
 
   .introduccion {
